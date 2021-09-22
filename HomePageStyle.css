@@ -1,0 +1,232 @@
+/* Sets box-sizing to border-box to keep consistent box sizes */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Style the html element */
+html{
+    font-size: 16px;
+    width: 100%;
+}
+
+        /* BEGINNING OF HOME PAGE CSS STYLING */
+        #homePageBody{
+            background-image: url("../andromeda_galaxy.jpg");
+            background-size: cover;
+            width: 100%;
+        }
+        /* Styles the title bar across all pages */
+        h1.title{
+            font-family: 'Oswald', sans-serif;
+            font-size: 2.5rem;
+            font-variant: all-small-caps;
+            color: white;
+            opacity: 0.85;
+            padding-top: 35px;
+            letter-spacing: 0.4em;
+            display: flex;
+            justify-content: center;
+        }
+        /* Styles the navigation bar across all pages */
+        .navigationLinks{
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        /* Styles the hover box for navigation links */
+        .navigationLinks a:hover{
+            background: rgb(4, 9, 32);
+            box-shadow: 0 5px 0 darkblue;
+        }
+        /* When clicking the link, the box shadow disappears */
+        .navigationLinks a:active{
+            box-shadow: none;
+        }
+        /* Styles the links inside the navigation bar across all pages */
+        .navigationLinks a{
+            color: white;
+            padding: 30px;
+            margin: 2%;
+            font-size: 1.2rem;
+            opacity: 0.85;
+            font-family: 'Quattrocento Sans', sans-serif;
+            font-variant: all-small-caps;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+        /* Styles the main contents of the homePage */
+        #homePageContent a, h2{
+            display: flex;
+            justify-content: center;
+        }
+        /* Styles the child h2 elements of the homePageContent */
+        #homePageContent h2{
+            font-family: 'Quattrocento Sans', sans-serif;
+            font-size: 2rem;
+            color: white;
+            opacity: 0.85;
+            margin-top: 3%;
+            text-align: center;
+        }
+        /* Creates a button around the liftoff! link when the user hovers over */
+        #homePageContent a:hover{
+            background: rgb(4, 9, 32);
+            box-shadow: 0 5px 0 darkblue;
+        }
+        /* When clicking the link, the box shadow disappears for the Liftoff button */
+        #homePageContent a:active{
+            box-shadow: none;
+        }
+        /* Styles the Liftoff! link */
+        #homePageContent a{
+            font-family: 'Quattrocentro Sans', sans-serif;
+            font-size: 2.5rem;
+            color: white;
+            padding: 20px;
+            margin-top: 50px;
+            border-radius: 10px;
+            opacity: 0.75;
+            text-decoration: none;
+            width: 25%;
+            position: relative;
+            left: 37%;
+        }
+        /* END OF HOME PAGE CSS STYLING */
+
+
+/* BEGINNING OF INTERACTIVE PAGE CSS STYLING */
+/* BEGINNING OF LEFT SIDE OF INTERACTIVE PAGE */
+#interactivePageBody{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+/* Styles the top portion of the Interactive page, i.e. the header */
+#interactivePageHeader{
+    background-image: 
+    url("https://wallpaperaccess.com/full/227920.jpg");
+    background-size: cover;
+}
+.container{
+    display: flex;
+}
+/* Styles the left block of the Interactive page */
+.interactivePageLeft{
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    margin: 0;
+    background-color: rgb(37, 11, 11);
+    opacity: 0.85;
+    flex: 1 1 50%;
+    overflow: hidden;
+}
+/* Code for any image that needs to be centered */
+.centeredImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+/* The "Introduction to Astronomy" header */
+.interactivePageLeft h2{
+    border-bottom: 2px solid white;
+    font-size: 2rem;
+    font-family: sans-serif;
+    padding: 10px 0;
+}
+/* Paragraphs within the left side of the interactive page */
+.interactivePageLeft p{
+    font-size: 1.25rem;
+    font-family: 'Lucida Sans', sans-serif;
+    margin: 30px 10px;
+    text-align: center;
+}
+/* The unordered list containing the two types of astronomers */
+.interactivePageLeft ul{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    margin: 15px auto;
+    width: 90%;
+}
+/* Styles the YouTube video */
+.interactivePageLeft iframe{
+    margin: 20px auto;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 95%;
+}
+/* END OF LEFT SIDE OF INTERACTIVE PAGE */
+
+
+/* BEGINNING OF RIGHT SIDE OF INTERACTIVE PAGE */
+/* Styles the right block of the Interactive page */
+.interactivePageRight{
+    color: white;
+    border: 2px solid white;
+    margin: 0;
+    background-color: rgb(4, 9, 32);
+    opacity: 0.85;
+    flex: 1 1 50%;
+}
+/* Styles the contents of the right block of the interactive page */
+.interactivePageRight h2{
+    border-bottom: 2px solid white;
+    font-family: sans-serif;
+    font-size: 2rem;
+    padding: 10px 0;
+    text-align: center;
+}
+/* The header of the astronomy subtypes section */
+.interactivePageRight h3{
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', sans-serif;
+    margin-top: 30px;
+    text-align: center;
+}
+/* The entire bulleted list of astronomy subtypes as a whole */
+.interactivePageRight ul{
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', sans-serif;
+    width: 95%;
+    float: right;
+}
+/* Each bulleted item that describes the type of astronomy subtype*/
+.interactivePageRight li{
+    margin: 25px 50px 25px;
+    border-bottom: 2px dotted white;
+}
+/* END OF RIGHT SIDE OF INTERACTIVE PAGE */
+
+
+/* BEGINNING OF ASTRONOMY TOOLS SECTION */
+.astronomyTools{
+    color: white;
+    border: 2px solid white;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.astronomyTools h2{
+    font-size: 2rem;
+    padding: 10px 0;
+    border-bottom: 2px solid white;
+    width: 100%;
+}
+.astronomyTools p{
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.inline-pic {
+    display: inline-block;
+}
+
+.astronomyTools h1 {
+    padding: 5px;
+    margin: 5px;
+}
