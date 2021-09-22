@@ -16,3 +16,4 @@ Things I have learned while making this website:
 - Bold, underline and italic modifiers
 - Using different kinds of lists, ordered, numbered, unordered, etc.
 - Creating links that redirect the user to different websites in a new tab
+- Using CSS to style elements, add color, specify what sections would be changed.
