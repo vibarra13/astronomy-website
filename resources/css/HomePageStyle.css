@@ -231,6 +231,7 @@ html{
 .astronomyTools ul {
     font-size: 1.5rem;
     width: 80%
+    list-style-position: inside;
 }
 .astronomyTools li {
     margin: 15px;
