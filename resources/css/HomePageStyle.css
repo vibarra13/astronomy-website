@@ -230,6 +230,7 @@ html{
 }
 .astronomyTools ul {
     font-size: 1.5rem;
+    width: 80%
 }
 .astronomyTools li {
     margin: 15px;
