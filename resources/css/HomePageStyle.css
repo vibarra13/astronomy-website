@@ -224,8 +224,11 @@ html{
 .inline-pic {
     display: inline-block;
 }
-
 .astronomyTools h1 {
     padding: 5px;
     margin: 5px;
+}
+.astronomyTools ul {
+    font-size: 1.5rem;
+    float: left;
 }
