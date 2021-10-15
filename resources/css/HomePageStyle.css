@@ -97,7 +97,7 @@ html{
 
 
 /* BEGINNING OF INTERACTIVE PAGE CSS STYLING */
-/* BEGINNING OF LEFT SIDE OF INTERACTIVE PAGE */
+/* BEGINNING OF INTRODUCTION SECTION */
 #interactivePageBody{
     background-color: black;
     margin: 0;
@@ -110,11 +110,8 @@ html{
     url("https://wallpaperaccess.com/full/227920.jpg");
     background-size: cover;
 }
-.container{
-    display: flex;
-}
-/* Styles the left block of the Interactive page */
-.interactivePageLeft{
+/* Styles the introduction section */
+.introduction{
     color: white;
     text-align: center;
     border: 2px solid white;
@@ -132,48 +129,48 @@ html{
     width: 50%;
   }
 /* The "Introduction to Astronomy" header */
-.interactivePageLeft h2{
+.introduction h2{
     border-bottom: 2px solid white;
     font-size: 2rem;
     font-family: sans-serif;
     padding: 10px 0;
 }
-/* Paragraphs within the left side of the interactive page */
-.interactivePageLeft p{
+/* Paragraphs within the introduction section */
+.introduction p{
     font-size: 1.25rem;
     font-family: 'Lucida Sans', sans-serif;
-    margin: 30px 10px;
-    text-align: center;
+    margin: 1% 15%;
+    text-align: start;
 }
 /* The unordered list containing the two types of astronomers */
-.interactivePageLeft ul{
+.introduction ul{
     font-family: sans-serif;
     font-size: 1.5rem;
     margin: 15px auto;
     width: 90%;
 }
 /* Styles the YouTube video */
-.interactivePageLeft iframe{
-    margin: 20px auto;
+.introduction iframe{
+    margin: 1% 15%;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
-    width: 95%;
 }
-/* END OF LEFT SIDE OF INTERACTIVE PAGE */
+/* END OF INTRODUCTION SECTION */
 
 
-/* BEGINNING OF RIGHT SIDE OF INTERACTIVE PAGE */
-/* Styles the right block of the Interactive page */
-.interactivePageRight{
+/* BEGINNING OF DIFF KINDS OF ASTRONOMY STUDIES */
+/* Styles the astronomy types section */
+.astronomyStudies{
     color: white;
     border: 2px solid white;
     margin: 0;
     background-color: rgb(4, 9, 32);
     opacity: 0.85;
     flex: 1 1 50%;
+    overflow: hidden;
 }
-/* Styles the contents of the right block of the interactive page */
-.interactivePageRight h2{
+/* Styles the contents of the astronomy studies section */
+.astronomyStudies h2{
     border-bottom: 2px solid white;
     font-family: sans-serif;
     font-size: 2rem;
@@ -181,24 +178,28 @@ html{
     text-align: center;
 }
 /* The header of the astronomy subtypes section */
-.interactivePageRight h3{
+.astronomyStudies h3{
     font-size: 1.5rem;
     font-family: 'Lucida Sans', sans-serif;
     margin-top: 30px;
     text-align: center;
 }
 /* The entire bulleted list of astronomy subtypes as a whole */
-.interactivePageRight ul{
-    font-size: 1.5rem;
+.astronomyStudies ul{
+    font-size: 1.25rem;
     font-family: 'Lucida Sans', sans-serif;
-    width: 95%;
+    margin: 1% 15%;
     float: right;
 }
 /* Each bulleted item that describes the type of astronomy subtype*/
-.interactivePageRight li{
+.astronomyStudies li{
     margin: 25px 50px 25px;
 }
-/* END OF RIGHT SIDE OF INTERACTIVE PAGE */
+/* Styles the solar system picture */
+.astronomyStudies figure {
+    text-align: center;
+}
+/* END OF ASTRONOMY TYPES SECTION */
 
 
 /* BEGINNING OF ASTRONOMY TOOLS SECTION */
@@ -216,10 +217,9 @@ html{
     width: 100%;
 }
 .astronomyTools p{
-    font-size: 1.5rem;
-    text-align: left;
-    margin-left: 30px;
-    margin-top: 20px;
+    font-size: 1.25rem;
+    text-align: start;
+    margin: 1% 15%;
 }
 .inline-pic {
     display: inline-block;
@@ -229,10 +229,18 @@ html{
     margin: 5px;
 }
 .astronomyTools ul {
-    font-size: 1.5rem;
-    width: 80%
-    list-style-position: inside;
+    margin: 1% 15%;
+    font-size: 1.25rem;
+    text-align: start;
 }
-.astronomyTools li {
-    margin: 15px;
+.astronomyTools li{
+    margin: 0.33% 13%;
+}
+.astronomyTools .refractor{
+    width: 425px;
+    height: auto;
+}
+.astronomyTools .reflector{
+    width: 500px;
+    height: auto;
 }
