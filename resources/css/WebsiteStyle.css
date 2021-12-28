@@ -352,7 +352,7 @@ html{
             margin-right: 25%;
         }
         .jupiters_moons img{
-            width: 350px;
+            width: 350px;;
             height: auto;
         }
         .photos .saturn{
@@ -467,3 +467,56 @@ html{
     width: 850px;
     height: auto;
 }
+.light_pollution img{
+    width: 850px;
+    height: auto;
+}
+.bluemont img{
+    width: 850px;
+    height: auto;
+}
+/* END OF ASTROPHOTOGRAPHY SECTION STYLING */
+
+        /* BEGINNING OF ABOUT ME PAGE STYLING */
+        #aboutme{
+            background-color: #E1C699;
+        }
+        #aboutme .title{
+            color: white;
+            text-shadow: -3px -3px rgb(126, 66, 27);
+        }
+        #aboutme a:hover{
+            background: rgb(54, 32, 4);
+            box-shadow: 0 5px 0 rgb(12, 8, 1);
+        }
+        #aboutme a{
+            color: rgb(87, 64, 45);
+        }
+        #aboutme h1{
+            color: rgb(70, 51, 36);
+            margin-left: 5%;
+        }
+        #aboutme p{
+            color: rgb(70, 51, 36);
+            margin-left: 5%;
+            margin-right: 10%;
+        }
+        #aboutme .imgofme{
+            margin-top: 2%;
+            text-align: center;
+        }
+        #aboutme .me{
+            width: 500px;
+            height: auto;
+        }
+        #aboutme .socials{
+            text-align: center;
+        }
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+          }
+        
