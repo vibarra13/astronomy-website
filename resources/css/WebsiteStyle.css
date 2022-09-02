@@ -304,22 +304,17 @@ html{
         }
         .photos .venus{
             margin-top: 5%;
-            margin-right: 25%;
         }
         .venus img{
             width: 500px;
             height: auto;
         }
         .photos .moon{
-            margin-left: 25%;
             margin-top: 5%;
         }
         .moon img{
             width: 350px;
             height: auto;
-        }
-        .moon figcaption{
-            margin-right: 8%;
         }
         .photos .lunar_eclipse{
             margin-top: 5%;
@@ -330,18 +325,13 @@ html{
         }
         .photos .mars{
             margin-top: 5%;
-            margin-right: 35%;
         }
         .mars img{
             width: 350px;
             height: auto;
         }
-        .mars figcaption{
-            margin-left: 2%;
-        }
         .photos .jupiter{
             margin-top: 5%;
-            margin-right: 45%;
         }
         .jupiter img{
             width: 350px;
@@ -349,7 +339,6 @@ html{
         }
         .photos .jupiters_moons{
             margin-top: 5%;
-            margin-right: 25%;
         }
         .jupiters_moons img{
             width: 350px;;
@@ -364,7 +353,6 @@ html{
         }
         .photos .neowise{
             margin-top: 5%;
-            margin-left: 35%;
         }
         .neowise img{
             width: 500px;
@@ -372,7 +360,6 @@ html{
         }
         .photos .milkyway{
             margin-top: 5%;
-            margin-left: 45%;
         }
         .milkyway img{
             height: 550px;
@@ -387,7 +374,6 @@ html{
         }
         .photos .summer_triangle{
             margin-top: 3%;
-            margin-right: 45%;
         }
         .summer_triangle img{
             width: 600px;
@@ -395,7 +381,6 @@ html{
         }
         .photos .bodes{
             margin-top: 3%;
-            margin-right: 20%;
         }
         .bodes img{
             width: 500px;
@@ -403,7 +388,6 @@ html{
         }
         .photos .leo_triplet{
             margin-top: 3%;
-            margin-left: 20%;
         }
         .leo_triplet img{
             width: 600px;
@@ -411,7 +395,6 @@ html{
         }
         .photos .trifid{
             margin-top: 3%;
-            margin-left: 45%;
         }
         .trifid img{
             width: 500px;
