@@ -1,7 +1,7 @@
 Welcome to my website! This is where I have some of my info, and my creation of a website in HTML and CSS. 
 
 Extensions of the website:
-- Home page
+- <a href="AstronomyHomePage.html>Home page</a>
 - Gallery (includes pictures of my lovely girlfriend as well as my astrophotography)
 - About me page: some fun facts about me and includes my social media.
 
